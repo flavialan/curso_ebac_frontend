@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    padding-top: 20px;
+}
+
+header > .container{
+    align-items: center;
+    padding-bottom: 16px;
+    background-color: #470124;
+    border-radius: 6px;
+    border: none;
+}
+
+header h1{
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+}
+
+body{
+    background-color: rgb(164, 133, 192);
+}
+
+
+form{
+    max-width: 90%;
+    padding-top: 25px;
+    margin: 0 auto;
+    padding-bottom: 42px;
+}
+
+.form-campo{
+    margin-bottom: 16px;
+}
+
+.form-campo label{
+    color: #470124;
+    display: block;
+    font-size: 20px;
+}
+
+.form-campo input{
+    width: 100%;
+    display: block;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #470124;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+#nome-error, #email-error, #telefone-error,
+#cep-error, #endereco-error, 
+#cpf-error{
+    color: red;
+}
+
+footer{
+    background-color: #470124;
+    color: #fff;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+    font-size: 10px;
+}
+
